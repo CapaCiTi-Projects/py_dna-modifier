@@ -63,7 +63,7 @@ def mutate():
     dna = dna.replace("\r", "")
 
     # Only here because its mentioned in the instructions
-    aIdx = dna.find('a')
+    a_index = dna.find('a')
 
     normal = dna.replace('a', 'A')
     mutated = dna.replace('a', 'T')
