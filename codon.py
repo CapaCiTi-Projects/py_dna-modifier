@@ -92,5 +92,6 @@ def txtTranslate():
     print(normal[1])
 
 
-mutate()
-txtTranslate()
+if __name__ == "__main__":
+    mutate()
+    txtTranslate()
