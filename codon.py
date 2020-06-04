@@ -51,13 +51,6 @@ def translate(sequence):
             codon = sequence[(i*3):(i*3)+3]
             slc += get_codon_slc(codon)
 
-        if slc == '':
-            print(ERRORS['UNKNOWN_CODON'])
-        else:
-            print(slc)
-    else:
-        print(error)
-
     return (False, slc) if slc != '' else (True, error)
 
 
@@ -94,9 +87,10 @@ def read_file(filename):
 def txtTranslate():
     mutated = translate(read_file('mutatedDNA.txt'))
     normal = translate(read_file('normalDNA.txt'))
-    
-    print(mutated)
-    print(normal)
+
+    print(mutated[1])
+    print(normal[1])
 
 
+mutate()
 txtTranslate()
