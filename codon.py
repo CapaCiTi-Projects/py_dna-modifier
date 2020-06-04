@@ -65,8 +65,8 @@ def mutate():
     # Only here because its mentioned in the instructions
     aIdx = dna.find('a')
 
-    mutated = dna.replace('a', 'A')
-    normal = dna.replace('a', 'T')
+    normal = dna.replace('a', 'A')
+    mutated = dna.replace('a', 'T')
 
     write_to_file('normalDNA.txt', normal)
     write_to_file('mutatedDNA.txt', mutated)
