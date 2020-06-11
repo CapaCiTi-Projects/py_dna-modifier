@@ -16,15 +16,15 @@ Before running, a text file named 'DNA.txt' is required to perform the mutate fu
 ## Usage
 ### For standalone / testing purposes
 Simply run the following command from the command-line / terminal:
-<pre>python3 codon.py</pre>
+<pre>python3 main.py</pre>
 
 ### For module / package use
 At present PyDNA Modifier is not built with modularity in mind, if you would like these features to be applied, open up an issue with GitHub's issue tracker at
-[GitHub Issues](https://github.com/JesseBoise/pydna_modifier/issues) and I will take a look at it.
+[GitHub Issues](https://github.com/JesseBoise/py_dna-modifier/issues) and I will take a look at it.
 
 
 ## Feedback
-For issues, feature requests or any other feedback post an issue at [GitHub Issues](https://github.com/JesseBoise/pydna_modifier/issues) or send me an email at:
+For issues, feature requests or any other feedback post an issue at [GitHub Issues](https://github.com/JesseBoise/py_dna-modifier/issues) or send me an email at:
 
 >**Work Email**<br/>
 >interncptwex007@capaciti.org.za
